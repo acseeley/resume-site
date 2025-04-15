@@ -5,7 +5,7 @@ export default function Projects({ activeSkill }) {
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    fetch("/data/projects.json")
+    fetch("data/projects.json")
       .then(res => res.json())
       .then(data => setProjects(data));
   }, []);
