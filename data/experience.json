@@ -1,0 +1,33 @@
+[
+    {
+        "title": "JE Dunn Construction - Application Developer 1",
+        "date": "April 2025 - Present",
+        "bullets": [
+          "Full stack developer creating and maintaing web applications.",
+          "Used Azure Pipelines, Jira, Confluence for deployment + planning.",
+          "Performed manual testing to validate feature quality."
+        ],
+        "skills": ["React", "JavaScript", "SQL", "Jira", "Oracle", "Git", "PHP", "PowerShell", "JSON", "API"]
+      },
+    {
+        "title": "The Church of Jesus Christ of Latter-Day Saints – Web Developer Intern",
+        "date": "August 2024 – April 2025",
+        "bullets": [
+            "Developed fixes and enhancements for JavaScript React projects.",
+          "Automated testing with Cypress + JavaScript.",
+          "Used Azure Pipelines, Jira, Confluence for deployment + planning."
+        ],
+        "skills": ["Cypress", "JavaScript", "Azure", "Jira", "Oracle", "Git", "API", "Gatling"]
+      },
+    {
+      "title": "JE Dunn Construction – Application Developer Intern",
+      "date": "May 2023 – August 2023",
+      "bullets": [
+        "Resolved 40+ bugs across 20+ PHP/JS web pages.",
+        "Updated reporting with real-time project data company-wide."
+      ],
+      "skills": ["PHP", "JavaScript", "HTML", "CSS", "PowerShell", "Oracle", "Git", "JSON"]
+    }
+    
+  ]
+  

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Cryptocurrency Arbitrage Trader",
+    "description": "Python + AWS trading bot",
+    "bullets": [
+      "Analyzed arbitrage opportunities using Alpaca API",
+      "Automated crypto buy/sell based on profit threshold",
+      "Produced meaningful returns with no user input"
+    ],
+    "skills": ["Python", "AWS", "API", "JSON"]
+  },
+  {
+    "title": "Interactive NFL Statistics Website",
+    "description": "Web app for live NFL analytics",
+    "bullets": [
+      "Built a PHP and MySQL website to analyze NFL data",
+      "Used JavaScript for interactive data visuals"
+    ],
+    "skills": ["PHP", "MySQL", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "title": "Sport Betting Simulation",
+    "description": "Simulated betting platform",
+    "bullets": [
+      "Integrated ESPN API for real-time updates",
+      "Used JSON to manage bet histories",
+      "Ran the server using AWS"
+    ],
+    "skills": ["Python", "JSON", "API"]
+  },
+  {
+    "title": "CLI Pokemon Pokedex",
+    "description": "User friendly Pokedex that can be accessed using the command line",
+    "bullets": [
+      "Utilized an API to retrieve information",
+      "Users saved rosters for analysis",
+      "Determined strengths and weaknesses of Pokemon rosters"
+    ],
+    "skills": ["Python", "JSON", "API", "Windows"]
+  },
+  {
+    "title": "NFL Attendance Data Pipeline",
+    "description": "Tasked with integrating and transferring data from multiple different sources",
+    "bullets": [
+      "Utilized ETL practices to ensure data was consistently transferred",
+      "Created a Postgres database in AWS",
+      "Completed the data transfer over a period of multiple days"
+    ],
+    "skills": ["Python", "AWS", "SQL", "ELT"]
+  },
+  {
+    "title": "Creating a Data Warehouse for a Business",
+    "description": "Used real businesss data and converted and transferred to a database and data warehouse",
+    "bullets": [
+      "Used Snowflake, Postgres SQL, AirByte and Docker to transfer data",
+      "Utillized ELT on multiple different data sources including databases, CSV, and JSON",
+      "Worked with 4 other individuals to create correct and efficient DDL",
+      "Created data visualizations using Tableau to display insights from the data we aggregated"
+    ],
+    "skills": ["SQL", "ELT", "Snowflake", "Tableau", "JSON", "Git"]
+  }
+]
