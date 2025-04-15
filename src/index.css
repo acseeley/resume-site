@@ -1,0 +1,556 @@
+/* === THEME VARIABLES === */
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+:root {
+    --primary-bg: #001D4A;
+    --secondary-bg: #173a5e;
+    --primary-text: #f0f1f2;
+    --secondary-text: #AED6F1;
+    --accent-color: #DC9596;
+    --button-bg: #046A91;
+    --button-hover-bg: #DC9596;
+  }
+  
+  [data-theme="alt1"] {
+    --primary-bg: #013220;
+    --secondary-bg: #026440;
+    --primary-text: #fffef2;
+    --secondary-text: #f2e96c;
+    --accent-color: #e9c46a;
+    --button-bg: #026440;
+    --button-hover-bg: #f2e96c;
+  }
+
+  [data-theme="alt3"] {
+    --primary-bg: #121212;         /* Deep black */
+    --secondary-bg: #1f1f1f;       /* Dark gray */
+    --primary-text: #ffffff;       /* White */
+    --secondary-text: #cccccc;     /* Light gray */
+    --accent-color: #888888;       /* Mid gray */
+    --button-bg: #333333;          /* Button background */
+    --button-hover-bg: #555555;    /* Button hover */
+  }
+  
+  
+  [data-theme="alt2"] {
+    --primary-bg: #0F1923;
+    --secondary-bg: #002B5C;
+    --primary-text: #ffffff;
+    --secondary-text: #FDB927;
+    --accent-color: #00471B;
+    --button-bg: #FDB927;
+    --button-hover-bg: #00471B;
+  }
+
+  /* === THEME: Rose Taupe / Cambridge Blue / Black / Sky Blue / Rose Quartz === */
+[data-theme="rose"] {
+    --primary-bg: #000000;
+    --secondary-bg: #785964;
+    --primary-text: #ffffff;
+    --secondary-text: #9ED0E6;
+    --accent-color: #B796AC;
+    --button-bg: #82A7A6;
+    --button-hover-bg: #9ED0E6;
+  }
+  
+  /* === THEME: Silver / Bone / Pale Dogwood / Rose Taupe / Wine === */
+  [data-theme="soft-rose"] {
+    --primary-bg: #D5B9B2;
+    --secondary-bg: #CEBEBE;
+    --primary-text: #000000;
+    --secondary-text: #6D2E46;
+    --accent-color: #A26769;
+    --button-bg: #ECE2D0;
+    --button-hover-bg: #6D2E46;
+  }
+  
+  /* === THEME: Davy’s Gray / Gray / Olivine / Tea Green / Beige === */
+  [data-theme="natural"] {
+    --primary-bg: #605B56;
+    --secondary-bg: #837A75;
+    --primary-text: #ffffff;
+    --secondary-text: #DAFEB7;
+    --accent-color: #ACC18A;
+    --button-bg: #F2FBE0;
+    --button-hover-bg: #DAFEB7;
+  }
+  
+  /* === THEME: Saffron / YInMn Blue / Mint / Tomato / Rose Red === */
+  [data-theme="sunset"] {
+    --primary-bg: #345995;
+    --secondary-bg: #FB4D3D;
+    --primary-text: #ffffff;
+    --secondary-text: #CA1551;
+    --accent-color: #03CEA4;
+    --button-bg: #EAC435;
+    --button-hover-bg: #03CEA4;
+  }
+  
+  /* === THEME: Coffee / Redwood / Lion / Pistachio / Cream === */
+  [data-theme="earthy"] {
+    --primary-bg: #644536;
+    --secondary-bg: #C4A381;
+    --primary-text: #ffffff;
+    --secondary-text: #BBD686;
+    --accent-color: #B2675E;
+    --button-bg: #EEF1BD;
+    --button-hover-bg: #B2675E;
+  }
+  
+  
+  /* === BASE LAYOUT === */
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .app {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--primary-bg), var(--secondary-bg));
+    color: var(--primary-text);
+    position: relative;
+  }
+  
+  /* === SIDEBAR === */
+  
+  .sidebar {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .sidebar h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .sidebar p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: var(--secondary-text);
+  }
+  
+  .download-btn {
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    padding: 0.6rem 1.2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    margin-top: 1rem;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 1.5rem;
+  }
+  
+  .socials a {
+    color: var(--secondary-text);
+    transition: transform 0.2s ease, color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  
+  .socials a:hover {
+    transform: scale(1.2);
+    color: var(--button-hover-bg);
+  }
+  
+  .socials i {
+    font-size: 2rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    text-decoration: none;
+    padding: 2px;
+  }
+  
+  
+  .sidebar nav a {
+    margin: 0 6px;
+    color: var(--secondary-text);
+    text-decoration: none;
+  }
+  
+  .sidebar nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* === MAIN CONTENT === */
+  
+  .main {
+    width: 50vw;
+    overflow-y: auto;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .main h2 {
+    color: var(--secondary-text);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  .main .section {
+    margin-bottom: 2rem;
+  }
+  
+  .main .section p {
+    color: var(--secondary-text);
+    line-height: 1.6;
+  }
+  
+  /* === DIVIDER === */
+  
+  .app::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--accent-color);
+    z-index: 1;
+  }
+  
+  /* === THEME SELECTOR === */
+  
+  .theme-selector-wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .theme-selector {
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    border-radius: 50px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 16px;
+    gap: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  .theme-selector.expanded {
+    padding: 0 20px;
+  }
+  
+  .theme-inline-options {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .theme-inline-options button {
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-inline-options button:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  /* === FOOTER === */
+  
+  .contact-footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .job-box {
+    position: relative;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    transition: border 0.3s ease;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    overflow: visible; /* important for hover to reach the edge */
+  position: relative;
+  }
+  
+  
+  .job-box:hover {
+    border-color: var(--button-hover-bg);
+  }
+  
+  .hover-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background-color: var(--hover-detail-bg, var(--accent-color));
+    color: var(--primary-text);
+    font-size: 0.75rem;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .job-box:hover .hover-details,
+  .project-box:hover .hover-details {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    padding: 6px;
+  }
+  
+
+  
+  
+  .job-box:hover .hover-details {
+    visibility: visible;
+    opacity: 1;
+    padding: 6px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 20px;
+    padding-top: 1rem;
+  }
+  
+  .skill-item {
+    font-size: 1rem;
+    color: var(--secondary-text);
+    padding: 4px 0;
+  }
+  
+  .project-box {
+    position: relative;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    transition: border 0.3s ease;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    overflow: visible; /* important for hover to reach the edge */
+  position: relative;
+  }
+  
+  .project-box:hover {
+    border-color: var(--button-hover-bg);
+  }
+  
+  .project-box .hover-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--hover-detail-bg, var(--accent-color));
+    color: var(--primary-text);
+    font-size: 0.75rem;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .project-box:hover .hover-details {
+    visibility: visible;
+    opacity: 1;
+    padding: 6px;
+  }
+
+  .skill-item {
+    font-size: 1rem;
+    color: var(--secondary-text);
+    padding: 4px 0;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .skill-item:hover {
+    color: var(--button-hover-bg);
+    text-decoration: underline;
+  }
+  
+  .skill-item.selected-skill {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+  
+  .job-box.highlighted,
+  .project-box.highlighted {
+    border-color: var(--accent-color);
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 0 3px var(--accent-color);
+  }
+.tooltip-icon {
+  margin-left: 10px;
+  font-size: 0.95rem;
+  cursor: help;
+  color: var(--secondary-text);
+  vertical-align: middle;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.tooltip-icon:hover {
+  color: var(--button-hover-bg);
+}
+  
+.button-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+    align-items: center;
+  }
+  
+  .btn {
+    display: block;
+    box-sizing: border-box;
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    padding: 0.6rem 1.4rem;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 240px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 12px; /* ✅ space between buttons */
+  }
+  
+  
+  
+  .btn:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  .button-group a.btn {
+    display: block;             /* Ensure <a> behaves like block */
+  }
+  
+  
+  
+  .btn:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  .about-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .about-photo {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid var(--accent-color);
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .carousel-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+    border: 2px solid var(--accent-color);
+  }
+  
+  .carousel-btn {
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-btn:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
+  .show-more {
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .show-more:hover {
+    background-color: var(--button-hover-bg);
+  }
+  
