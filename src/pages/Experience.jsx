@@ -4,7 +4,7 @@ export default function Experience({ activeSkill }) {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    fetch("/data/experience.json")
+    fetch("data/experience.json")
       .then(res => res.json())
       .then(data => setJobs(data));
   }, []);

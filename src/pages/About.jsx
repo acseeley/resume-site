@@ -6,7 +6,7 @@ export default function About() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    fetch("/data/about.json")
+    fetch("data/about.json")
       .then(res => res.json())
       .then(data => setAboutData(data));
   }, []);

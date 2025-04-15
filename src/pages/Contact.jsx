@@ -4,7 +4,7 @@ export default function Contact() {
   const [contactInfo, setContactInfo] = useState(null);
 
   useEffect(() => {
-    fetch("/data/contact.json")
+    fetch("data/contact.json")
       .then(res => res.json())
       .then(data => setContactInfo(data));
   }, []);
