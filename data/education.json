@@ -1,0 +1,35 @@
+{
+    "school": "Utah State University",
+    "degree": "Bachelor of Science in Management Information Systems",
+    "date": "December 2024",
+    "concentration": "Data Engineering",
+    "minors": ["Computer Science", "Data Analytics"],
+    "gpa": "3.4",
+    "coursework": [
+      {
+        "title": "Data Pipelines",
+        "description": "Implemented ETL pipelines using Pandas for data integration across sources."
+      },
+      {
+        "title": "Data Warehousing",
+        "description": "Utilized Snowflake to create data warehouses to efficiently store data."
+      },
+      {
+        "title": "Advanced Python Programming",
+        "description": "Engineered complex algorithms for real-world applications."
+      },
+      {
+        "title": "Data Visualization with Tableau",
+        "description": "Transformed data and created effective visualizations using Tableau."
+      },
+      {
+        "title": "Advanced Database Management",
+        "description": "Built on intermediate SQL practices and developed materialized views, window functions, and more."
+      },
+      {
+        "title": "Cloud Computing",
+        "description": "Deployed full web solutions with AWS for storage, hosting, and databases."
+      }
+    ]
+  }
+  
