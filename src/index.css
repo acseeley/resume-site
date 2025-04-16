@@ -22,81 +22,46 @@
     --button-hover-bg: #f2e96c;
   }
 
-  [data-theme="alt3"] {
-    --primary-bg: #121212;         /* Deep black */
-    --secondary-bg: #1f1f1f;       /* Dark gray */
-    --primary-text: #ffffff;       /* White */
-    --secondary-text: #cccccc;     /* Light gray */
-    --accent-color: #888888;       /* Mid gray */
-    --button-bg: #333333;          /* Button background */
-    --button-hover-bg: #555555;    /* Button hover */
-  }
-  
-  
   [data-theme="alt2"] {
-    --primary-bg: #0F1923;
-    --secondary-bg: #002B5C;
-    --primary-text: #ffffff;
-    --secondary-text: #FDB927;
-    --accent-color: #00471B;
-    --button-bg: #FDB927;
-    --button-hover-bg: #00471B;
+    --primary-bg: #5b0c0c;
+    --secondary-bg: #572323;
+    --primary-text: #fffef2;
+    --secondary-text: #f2e96c;
+    --accent-color: #e9c46a;
+    --button-bg: #8d4848;
+    --button-hover-bg: #cd3636;
   }
 
-  /* === THEME: Rose Taupe / Cambridge Blue / Black / Sky Blue / Rose Quartz === */
-[data-theme="rose"] {
+  [data-theme="alt3"] {
     --primary-bg: #000000;
-    --secondary-bg: #785964;
-    --primary-text: #ffffff;
-    --secondary-text: #9ED0E6;
-    --accent-color: #B796AC;
-    --button-bg: #82A7A6;
-    --button-hover-bg: #9ED0E6;
+    --secondary-bg: #202020;
+    --primary-text: #fffef2;
+    --secondary-text: #a2a2a2;
+    --accent-color: #a2a2a2;
+    --button-bg: #414141;
+    --button-hover-bg: #c1c1c1;
   }
-  
-  /* === THEME: Silver / Bone / Pale Dogwood / Rose Taupe / Wine === */
-  [data-theme="soft-rose"] {
-    --primary-bg: #D5B9B2;
-    --secondary-bg: #CEBEBE;
-    --primary-text: #000000;
-    --secondary-text: #6D2E46;
-    --accent-color: #A26769;
-    --button-bg: #ECE2D0;
-    --button-hover-bg: #6D2E46;
-  }
-  
-  /* === THEME: Davy’s Gray / Gray / Olivine / Tea Green / Beige === */
-  [data-theme="natural"] {
-    --primary-bg: #605B56;
-    --secondary-bg: #837A75;
-    --primary-text: #ffffff;
-    --secondary-text: #DAFEB7;
-    --accent-color: #ACC18A;
-    --button-bg: #F2FBE0;
-    --button-hover-bg: #DAFEB7;
-  }
-  
-  /* === THEME: Saffron / YInMn Blue / Mint / Tomato / Rose Red === */
-  [data-theme="sunset"] {
-    --primary-bg: #345995;
-    --secondary-bg: #FB4D3D;
-    --primary-text: #ffffff;
-    --secondary-text: #CA1551;
-    --accent-color: #03CEA4;
-    --button-bg: #EAC435;
-    --button-hover-bg: #03CEA4;
-  }
-  
-  /* === THEME: Coffee / Redwood / Lion / Pistachio / Cream === */
-  [data-theme="earthy"] {
+
+  [data-theme="alt4"] {
     --primary-bg: #644536;
-    --secondary-bg: #C4A381;
-    --primary-text: #ffffff;
-    --secondary-text: #BBD686;
-    --accent-color: #B2675E;
-    --button-bg: #EEF1BD;
-    --button-hover-bg: #B2675E;
+    --secondary-bg: #b2675e;
+    --primary-text: #fffef2;
+    --secondary-text: #EEF1BD;
+    --accent-color: #BBD686;
+    --button-bg: #C4A381;
+    --button-hover-bg: #BBD686;
   }
+
+  [data-theme="alt5"] {
+    --primary-bg: #A63A50;
+    --secondary-bg: #BA6E6E;
+    --primary-text: #F0E7D8;
+    --secondary-text: #EEF1BD;
+    --accent-color: #275DAD;
+    --button-bg: #275DAD;
+    --button-hover-bg: #240B36;
+  }
+
   
   
   /* === BASE LAYOUT === */

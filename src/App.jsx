@@ -23,6 +23,7 @@ export default function App() {
             <h1>Adam Seeley</h1>
             <p><strong>Junior Software Developer</strong></p>
             <p>Experienced with web development, software development, and data engineering.</p>
+            <p>Currently working remotely out of <strong>Salt Lake City, Utah.</strong></p>
 
             <div className="button-group">
               <button
@@ -70,16 +71,12 @@ export default function App() {
           🎨
           {showThemeOptions && (
             <div className="theme-inline-options">
-              <button onClick={() => setTheme("default")}>Default</button>
-              <button onClick={() => setTheme("alt1")}>Green + Gold</button>
-              <button onClick={() => setTheme("alt2")}>Jazz</button>
-              <button onClick={() => setTheme("alt3")}>Black/Gray/White</button>
-              <button onClick={() => setTheme("rose")}>Rose + Sky</button>
-            <button onClick={() => setTheme("soft-rose")}>Soft Rose</button>
-            <button onClick={() => setTheme("natural")}>Natural</button>
-            <button onClick={() => setTheme("sunset")}>Sunset</button>
-            <button onClick={() => setTheme("earthy")}>Earthy</button>
-
+              <button onClick={() => setTheme("default")}>Blue</button>
+              <button onClick={() => setTheme("alt1")}>Green</button>
+              <button onClick={() => setTheme("alt2")}>Red</button>
+              <button onClick={() => setTheme("alt3")}>Black</button>
+              <button onClick={() => setTheme("alt4")}>Brown</button>
+              <button onClick={() => setTheme("alt5")}>Brown</button>
             </div>
           )}
         </div>
