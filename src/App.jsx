@@ -12,7 +12,6 @@ export default function App() {
   const [showThemeOptions, setShowThemeOptions] = useState(false);
   const [activeSkill, setActiveSkill] = useState("");
   const [showAbout, setShowAbout] = useState(false);
-  console.log("Active Skill:", activeSkill);
 
 
   return (
