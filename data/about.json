@@ -1,13 +1,6 @@
 {
-    "text": "I'm a junior software developer with a passion for learning, creating, and solving problems. Outside of code, I enjoy movies, hiking, and spending time with my dog June.",
-    "photos": [
-      "/images/photo1.jpg",
-      "/images/photo2.jpg"
-    ],
-    "movies": [
-      "/images/movie1.jpg",
-      "/images/movie2.jpg",
-      "/images/movie3.jpg"
-    ]
+    "text": "My name is Adam Seeley. I was born in Arizona but spent most my life in Utah but have lived in Kansas, Missouri, and the country of Myanmar as well. I married my wife in 2021 and we have a dog named June. I enjoy watching sports, particularl football. My wife, being from Kansas City, has converted me to a Kansas City Chiefs fan and we have gone to several home and away games. I enjoy playing most sports (with the exception of golf) and generally just enjoy being outdoors. Living in Utah has many perks but one of my favorites is the mountains as I enjoy hiking, camping and fishing. In 2019, post high school graduation, I had the opportunity to serve an ecclesiastical mission for my church in Myanmar. Though I do speak Burmese, I haven't had too many opportunities since returning home to practice my language skills. My career path started in college, despite initially having no desire to program. Civil engineering was my first major and I was fortunate enough to take a programming class as a required course. Though I was not excited to take it, I left the semester with a new career path: software engineering. I graudated with a degree in Management Information Systems. This major provided a more encompassing cirriculum compared to computer science, so I gained a deeper understanding in databases, cybersecurity, data analytics, and more. I have completed two internships, both as web developers, and am currently working as a fullstack developer for JE Dunn construction in Kansas City.",
+    "photos": ["headshot.JPG", "chief_game.jpeg", "june.jpg"],
+    "movies": ["movie1.jpg", "movie2.jpg", "movie3.jpg"]
   }
   
